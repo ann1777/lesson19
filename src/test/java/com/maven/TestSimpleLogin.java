@@ -17,7 +17,7 @@ public class TestSimpleLogin {
         TestSimpleLogin user=new TestSimpleLogin();
         Assert.assertEquals(1, user.testLogin2("jon","test@123"));
         System.out.println("testLogin2 was successful");
-        return new int[0];
+        return new int[1];
     }
 }
 
